@@ -21,11 +21,20 @@ namespace ProyectoDB
         private void GalleryGanresItem_MouseDown(object sender, MouseEventArgs e)
         {
             this.BorderStyle = BorderStyle.FixedSingle;
+            this.BackColor = SystemColors.ControlDark;
         }
 
         private void GalleryGanresItem_MouseLeave(object sender, EventArgs e)
         {
             this.BorderStyle = BorderStyle.None;
+            this.BackColor = SystemColors.ControlDarkDark;
+        }
+
+        private void GalleryGanresItem_MouseEnter(object sender, EventArgs e)
+        {
+            this.BorderStyle = BorderStyle.FixedSingle;
+            this.BackColor = SystemColors.ControlDark;
+
         }
     }
 }

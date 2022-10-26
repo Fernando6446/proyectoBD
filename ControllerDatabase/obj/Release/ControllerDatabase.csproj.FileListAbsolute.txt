@@ -1,0 +1,9 @@
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Release\ControllerDatabase.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Release\ControllerDatabase.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Release\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Release\templates.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Release\ControllerDatabase.csproj.AssemblyReference.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Release\ControllerDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Release\ControllerDatabase.csproj.CopyComplete
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Release\ControllerDatabase.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Release\ControllerDatabase.pdb

@@ -1,0 +1,5 @@
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\bin\Release\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\bin\Release\templates.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Release\templates.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Release\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Release\templates.pdb

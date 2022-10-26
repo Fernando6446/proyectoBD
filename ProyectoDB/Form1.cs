@@ -35,6 +35,7 @@ namespace ProyectoDB
                 GenresGallery genresGallery = new GenresGallery();
                 genresGallery.ShowDialog();
                 this.Visible=true;
+                this.Close();
             }
             else
             {

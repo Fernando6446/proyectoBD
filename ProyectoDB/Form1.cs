@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControllerDatabase;
 
 namespace ProyectoDB
 {
@@ -15,6 +16,27 @@ namespace ProyectoDB
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Registro reg = new Registro();
+            reg.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ControllerDatabase.UserController user_controller = new ControllerDatabase.UserController();
+            if (user_controller.userExist(txt_usuario.Text, txt_pass.Text))
+            {
+                MessageBox.Show("Bienvenido");
+            }
+            else
+            {
+                MessageBox.Show("Este usuario no existe lol");
+            }
         }
     }
 }

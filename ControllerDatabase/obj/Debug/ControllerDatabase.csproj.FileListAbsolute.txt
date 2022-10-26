@@ -1,0 +1,6 @@
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Debug\ControllerDatabase.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Debug\ControllerDatabase.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.csproj.AssemblyReference.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.pdb

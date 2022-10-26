@@ -52,6 +52,7 @@
             this.btn_regis.TabIndex = 10;
             this.btn_regis.Text = "Registrarme";
             this.btn_regis.UseVisualStyleBackColor = false;
+            this.btn_regis.Click += new System.EventHandler(this.btn_regis_Click);
             // 
             // label2
             // 
@@ -149,6 +150,7 @@
             this.Controls.Add(this.txt_pass);
             this.Controls.Add(this.txt_usuario);
             this.Name = "Registro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
             this.ResumeLayout(false);
             this.PerformLayout();

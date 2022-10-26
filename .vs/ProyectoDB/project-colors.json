@@ -20,6 +20,11 @@
       "ProjectGuid": "1efa0ead-0d4b-4fce-8f86-cd10b5a4a32b",
       "DisplayName": "ControllerDatabase",
       "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 4

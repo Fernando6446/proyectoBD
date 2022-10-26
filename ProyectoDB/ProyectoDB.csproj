@@ -88,5 +88,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControllerDatabase\ControllerDatabase.csproj">
+      <Project>{1efa0ead-0d4b-4fce-8f86-cd10b5a4a32b}</Project>
+      <Name>ControllerDatabase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

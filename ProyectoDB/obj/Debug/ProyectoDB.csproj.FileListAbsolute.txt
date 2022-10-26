@@ -1,0 +1,11 @@
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\ProyectoDB.exe.config
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\ProyectoDB.exe
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\ProyectoDB.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.csproj.AssemblyReference.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.Form1.resources
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.Properties.Resources.resources
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.csproj.GenerateResource.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.exe
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.pdb

@@ -1,6 +1,6 @@
 ﻿namespace ProyectoDB
 {
-    partial class GalleryGenres
+    partial class GalleryGanresItem
     {
         /// <summary> 
         /// Variable del diseñador necesaria.

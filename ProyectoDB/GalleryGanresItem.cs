@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoDB
 {
-    public partial class GalleryGenres : UserControl
+    public partial class GalleryGanresItem : UserControl
     {
-        public GalleryGenres()
+        public GalleryGanresItem()
         {
             InitializeComponent();
         }

@@ -26,6 +26,12 @@ namespace ProyectoDB
             this.Visible = true;
         }
 
+        public void clearComponents()
+        {
+            this.txt_pass.Text = "";
+            this.txt_usuario.Text = "";
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             ControllerDatabase.UserController user_controller = new ControllerDatabase.UserController();
@@ -40,6 +46,7 @@ namespace ProyectoDB
             else
             {
                 MessageBox.Show("Este usuario no existe lol");
+                this.clearComponents();
             }
         }
     }

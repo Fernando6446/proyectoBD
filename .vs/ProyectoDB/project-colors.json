@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7ff0282-f6e5-4a8b-aad2-9d84e4f61a02": {
+      "ProjectGuid": "f7ff0282-f6e5-4a8b-aad2-9d84e4f61a02",
+      "DisplayName": "ProyectoDB",
+      "ColorIndex": 0
+    },
+    "c73cfdd6-25e3-4f4a-b062-986e2a0262e5": {
+      "ProjectGuid": "c73cfdd6-25e3-4f4a-b062-986e2a0262e5",
+      "DisplayName": "DatabaseController",
+      "ColorIndex": 1
+    },
+    "7116b838-7492-4590-b4a7-67e55ed53373": {
+      "ProjectGuid": "7116b838-7492-4590-b4a7-67e55ed53373",
+      "DisplayName": "DBController",
+      "ColorIndex": 2
+    },
+    "1efa0ead-0d4b-4fce-8f86-cd10b5a4a32b": {
+      "ProjectGuid": "1efa0ead-0d4b-4fce-8f86-cd10b5a4a32b",
+      "DisplayName": "ControllerDatabase",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

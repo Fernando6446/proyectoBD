@@ -11,7 +11,7 @@ namespace ControllerDatabase
     {
         public static SqlConnection getConnection()
         {
-            string connectionString = "Data Source=localhost;Initial Catalog=Proyecto;User ID=as;Password=1234";
+            string connectionString = "Data Source=localhost;Initial Catalog=Proyecto;User ID=sa;Password=1234";
             return new SqlConnection(connectionString);
         }
     }

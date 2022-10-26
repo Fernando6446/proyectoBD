@@ -22,6 +22,8 @@ namespace ProyectoDB
         {
             ControllerDatabase.UserController userController = new ControllerDatabase.UserController();
             userController.createUser(txt_usuario.Text, txt_correo.Text, txt_tel.Text, txt_pass.Text);
+            MessageBox.Show("Usuario creado correctamente!");
+            this.Close();
         }
     }
 }

@@ -35,19 +35,39 @@ namespace ProyectoDB
         private void button1_Click(object sender, EventArgs e)
         {
             ControllerDatabase.UserController user_controller = new ControllerDatabase.UserController();
-            if (user_controller.userExist(txt_usuario.Text, txt_pass.Text))
+            if (txt_usuario.Text.ToLower() == "admin")
             {
-                this.Visible = false;
-                GenresGallery genresGallery = new GenresGallery();
-                genresGallery.ShowDialog();
-                this.Visible=true;
-                this.Close();
+                if (user_controller.userExist(txt_usuario.Text, txt_pass.Text))
+                {
+                    this.Visible = false;
+                    AdminDash adminDash = new AdminDash();
+                    adminDash.ShowDialog();
+                    this.Visible = true;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Este usuario no existe lol");
+                    this.clearComponents();
+                }
             }
             else
             {
-                MessageBox.Show("Este usuario no existe lol");
-                this.clearComponents();
+                if (user_controller.userExist(txt_usuario.Text, txt_pass.Text))
+                {
+                    this.Visible = false;
+                    GenresGallery genresGallery = new GenresGallery();
+                    genresGallery.ShowDialog();
+                    this.Visible = true;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Este usuario no existe lol");
+                    this.clearComponents();
+                }
             }
+
         }
     }
 }

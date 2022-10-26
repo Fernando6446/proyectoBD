@@ -17,3 +17,4 @@ C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\Pr
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.csproj.CopyComplete
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.exe
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.AdminDash.resources

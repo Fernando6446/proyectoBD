@@ -9,17 +9,10 @@ namespace ControllerDatabase
 {
     public class DBConnection
     {
-        public SqlConnection conn;
-        public string connectionString;
-        public DBConnection()
+        public static SqlConnection getConnection()
         {
-            this.connectionString = "Data Source=localhost;Initial Catalog=Proyecto;User ID=as;Password=1234";
-            this.conn = new SqlConnection();
-        }
-
-        public SqlConnection getConnection()
-        {
-            return this.conn;
+            string connectionString = "Data Source=localhost;Initial Catalog=Proyecto;User ID=as;Password=1234";
+            return new SqlConnection(connectionString);
         }
     }
 }

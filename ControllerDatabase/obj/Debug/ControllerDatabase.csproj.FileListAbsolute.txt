@@ -4,3 +4,6 @@ C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\De
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.csproj.CoreCompileInputs.cache
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.dll
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Debug\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\bin\Debug\templates.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ControllerDatabase\obj\Debug\ControllerDatabase.csproj.CopyComplete

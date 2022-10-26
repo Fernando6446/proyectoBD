@@ -1,0 +1,6 @@
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\bin\Debug\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\bin\Debug\templates.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Debug\templates.csproj.AssemblyReference.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Debug\templates.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Debug\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\templates\obj\Debug\templates.pdb

@@ -42,8 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnection.cs" />
+    <Compile Include="GenreController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\templates\templates.csproj">
+      <Project>{f49e429c-2d93-4023-82be-27144f2dcfc5}</Project>
+      <Name>templates</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

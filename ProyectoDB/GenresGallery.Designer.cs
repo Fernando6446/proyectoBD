@@ -33,9 +33,9 @@
             // 
             // container
             // 
-            this.container.Location = new System.Drawing.Point(132, 59);
+            this.container.Location = new System.Drawing.Point(39, 59);
             this.container.Name = "container";
-            this.container.Size = new System.Drawing.Size(740, 373);
+            this.container.Size = new System.Drawing.Size(933, 403);
             this.container.TabIndex = 1;
             // 
             // GenresGallery

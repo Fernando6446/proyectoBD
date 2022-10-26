@@ -17,5 +17,15 @@ namespace ProyectoDB
             InitializeComponent();
             this.lbl_name.Text = gente;
         }
+
+        private void GalleryGanresItem_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void GalleryGanresItem_MouseLeave(object sender, EventArgs e)
+        {
+            this.BorderStyle = BorderStyle.None;
+        }
     }
 }

@@ -13,3 +13,7 @@ C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\Proy
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\ControllerDatabase.dll
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\ControllerDatabase.pdb
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.csproj.CopyComplete
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\templates.dll
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\bin\Debug\templates.pdb
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.GalleryGanresItem.resources
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Debug\ProyectoDB.GenresGallery.resources

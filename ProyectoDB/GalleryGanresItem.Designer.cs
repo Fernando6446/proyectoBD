@@ -42,14 +42,16 @@
             this.lbl_name.TabIndex = 0;
             this.lbl_name.Text = "fdsfas";
             // 
-            // GalleryGenres
+            // GalleryGanresItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Controls.Add(this.lbl_name);
-            this.Name = "GalleryGenres";
+            this.Name = "GalleryGanresItem";
             this.Size = new System.Drawing.Size(157, 156);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GalleryGanresItem_MouseDown);
+            this.MouseLeave += new System.EventHandler(this.GalleryGanresItem_MouseLeave);
             this.ResumeLayout(false);
             this.PerformLayout();
 

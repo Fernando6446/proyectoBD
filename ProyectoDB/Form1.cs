@@ -31,7 +31,10 @@ namespace ProyectoDB
             ControllerDatabase.UserController user_controller = new ControllerDatabase.UserController();
             if (user_controller.userExist(txt_usuario.Text, txt_pass.Text))
             {
-                MessageBox.Show("Bienvenido");
+                this.Visible = false;
+                GenresGallery genresGallery = new GenresGallery();
+                genresGallery.ShowDialog();
+                this.Visible=true;
             }
             else
             {

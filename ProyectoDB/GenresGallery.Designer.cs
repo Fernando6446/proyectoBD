@@ -45,6 +45,7 @@
             this.ClientSize = new System.Drawing.Size(1004, 491);
             this.Controls.Add(this.container);
             this.Name = "GenresGallery";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GenresGallery";
             this.ResumeLayout(false);
 

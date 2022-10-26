@@ -48,6 +48,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Controls.Add(this.lbl_name);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "GalleryGanresItem";
             this.Size = new System.Drawing.Size(157, 156);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GalleryGanresItem_MouseDown);

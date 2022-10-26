@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControllerDatabase;
+using templates;
 
 namespace ProyectoDB
 {
@@ -15,6 +17,17 @@ namespace ProyectoDB
         public GenresGallery()
         {
             InitializeComponent();
+            this.fillData();
+        }
+
+        public void fillData()
+        {
+            ControllerDatabase.GenreController genreController = new ControllerDatabase.GenreController();
+            List<templates.Genre> genres = genreController.getGenres();
+            foreach(templates.Genre genre in genres)
+            {
+                container.Controls.Add(new GalleryGanresItem(genre.name));
+            }
         }
     }
 }

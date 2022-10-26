@@ -16,7 +16,7 @@ namespace ControllerDatabase
             this.connection = DBConnection.getConnection();
         }
 
-        public  List<Genre> List()
+        public  List<Genre> getGenres()
         {
             this.connection.Open();
             List<templates.Genre> items = new List<templates.Genre>();

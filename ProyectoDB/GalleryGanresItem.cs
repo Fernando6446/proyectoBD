@@ -12,9 +12,10 @@ namespace ProyectoDB
 {
     public partial class GalleryGanresItem : UserControl
     {
-        public GalleryGanresItem()
+        public GalleryGanresItem(string gente)
         {
             InitializeComponent();
+            this.lbl_name.Text = gente;
         }
     }
 }

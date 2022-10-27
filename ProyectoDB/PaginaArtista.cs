@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using templates;
+using ControllerDatabase;
 
 namespace ProyectoDB
 {
@@ -24,7 +25,15 @@ namespace ProyectoDB
         public void fillData()
         {
             lbl_name.Text = this.singer.name;
-            label_genero.Text = this.singer.genre;
+            ControllerDatabase.GenreController gcontroller = new ControllerDatabase.GenreController();
+            List<Genre> genres = gcontroller.getGenres();
+            foreach(Genre genre in genres)
+            {
+                if(genre.id == this.singer.genre)
+                {
+                    label_genero.Text = genre.name;
+                }
+            }
             label_pais.Text = this.singer.country;
             label_premios.Text = this.singer.awards;
             pic_imagen.Image = Image.FromFile("./imgs/Cantantes/" + this.singer.name + ".jpg");

@@ -21,3 +21,5 @@ C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\Pr
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.SingerItem.resources
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.SingersGallery.resources
 C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.PaginaArtista.resources
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.AlbumItem.resources
+C:\Users\Notebook\Desktop\Visual Ejercicios\ProyectoDB\ProyectoDB\obj\Release\ProyectoDB.AlbumsGallery.resources

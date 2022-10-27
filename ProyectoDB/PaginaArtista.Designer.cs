@@ -37,6 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label_pais = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pic_imagen)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             // 
             this.pic_imagen.Location = new System.Drawing.Point(49, 37);
             this.pic_imagen.Name = "pic_imagen";
-            this.pic_imagen.Size = new System.Drawing.Size(273, 208);
+            this.pic_imagen.Size = new System.Drawing.Size(292, 208);
             this.pic_imagen.TabIndex = 0;
             this.pic_imagen.TabStop = false;
             // 
@@ -128,11 +129,19 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Pais";
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(49, 298);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(726, 205);
+            this.flowLayoutPanel1.TabIndex = 9;
+            // 
             // PaginaArtista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1165, 501);
+            this.ClientSize = new System.Drawing.Size(950, 539);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label_pais);
@@ -161,5 +170,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label_pais;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

@@ -47,6 +47,7 @@
             this.ClientSize = new System.Drawing.Size(1004, 491);
             this.Controls.Add(this.container);
             this.Name = "SingersGallery";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SingersGallery";
             this.ResumeLayout(false);
 

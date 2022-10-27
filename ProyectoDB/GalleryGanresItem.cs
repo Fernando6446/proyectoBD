@@ -47,6 +47,9 @@ namespace ProyectoDB
 
         private void GalleryGanresItem_MouseClick(object sender, MouseEventArgs e)
         {
+            this.Visible = false;
+            SingersGallery sg = new SingersGallery();
+            sg.ShowDialog();
         }
     }
 }

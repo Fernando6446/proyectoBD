@@ -78,6 +78,18 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="SingerItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SingerItem.Designer.cs">
+      <DependentUpon>SingerItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingersGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingersGallery.Designer.cs">
+      <DependentUpon>SingersGallery.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminDash.resx">
       <DependentUpon>AdminDash.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +113,12 @@
     </Compile>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingerItem.resx">
+      <DependentUpon>SingerItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingersGallery.resx">
+      <DependentUpon>SingersGallery.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

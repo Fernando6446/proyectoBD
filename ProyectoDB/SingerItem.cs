@@ -38,7 +38,7 @@ namespace ProyectoDB
 
         public void setImage()
         {
-            this.BackgroundImage = Image.FromFile("./imgs/Generos/" + lbl_name.Text + ".jpg");
+            this.BackgroundImage = Image.FromFile("./imgs/Cantantes/" + lbl_name.Text + ".jpg");
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
         }
     }

@@ -15,14 +15,15 @@ namespace ProyectoDB
         public SingersGallery()
         {
             InitializeComponent();
+            this.fillData();
         }
         public void fillData()
         {
-            ControllerDatabase.GenreController genreController = new ControllerDatabase.GenreController();
-            List<templates.Genre> genres = genreController.getGenres();
-            foreach (templates.Genre genre in genres)
+            ControllerDatabase.SingerController singerController = new ControllerDatabase.SingerController();
+            List<templates.Singer> singers = singerController.getSingers();
+            foreach (templates.Singer singer in singers)
             {
-                container.Controls.Add(new GalleryGanresItem(genre.name));
+                container.Controls.Add(new SingerItem(singer.name));
             }
         }
     }

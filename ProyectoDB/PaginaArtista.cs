@@ -18,6 +18,14 @@ namespace ProyectoDB
         {
             this.singer = singer;
             InitializeComponent();
+            this.fillData();
+        }
+
+        public void fillData()
+        {
+            lbl_name.Text = this.singer.name;
+            label_genero.Text = this.singer.genre;
+            label_pais.Text = this.singer.country;
         }
     }
 }

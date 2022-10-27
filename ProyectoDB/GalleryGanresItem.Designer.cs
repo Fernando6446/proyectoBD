@@ -50,7 +50,7 @@
             this.Controls.Add(this.lbl_name);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "GalleryGanresItem";
-            this.Size = new System.Drawing.Size(157, 156);
+            this.Size = new System.Drawing.Size(216, 219);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GalleryGanresItem_MouseDown);
             this.MouseEnter += new System.EventHandler(this.GalleryGanresItem_MouseEnter);
             this.MouseLeave += new System.EventHandler(this.GalleryGanresItem_MouseLeave);

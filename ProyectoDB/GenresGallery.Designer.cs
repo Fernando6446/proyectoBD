@@ -33,6 +33,8 @@
             // 
             // container
             // 
+            this.container.AutoScroll = true;
+            this.container.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.container.Location = new System.Drawing.Point(39, 59);
             this.container.Name = "container";
             this.container.Size = new System.Drawing.Size(933, 403);

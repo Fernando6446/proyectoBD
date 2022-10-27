@@ -21,6 +21,7 @@ namespace ProyectoDB
         }
         public void setImage()
         {
+            lbl_name.Text = this.name;
             this.BackgroundImage = Image.FromFile("./imgs/Cantantes/" + name + ".jpg");
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
         }

@@ -53,7 +53,6 @@
             this.Name = "GalleryGanresItem";
             this.Size = new System.Drawing.Size(216, 219);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.GalleryGanresItem_MouseClick);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GalleryGanresItem_MouseDown);
             this.MouseEnter += new System.EventHandler(this.GalleryGanresItem_MouseEnter);
             this.MouseLeave += new System.EventHandler(this.GalleryGanresItem_MouseLeave);
             this.ResumeLayout(false);

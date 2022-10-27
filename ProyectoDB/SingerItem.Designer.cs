@@ -34,14 +34,13 @@
             // lbl_name
             // 
             this.lbl_name.AutoSize = true;
-            this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_name.Location = new System.Drawing.Point(84, 100);
+            this.lbl_name.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_name.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.Location = new System.Drawing.Point(96, 184);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(48, 18);
-            this.lbl_name.TabIndex = 1;
-            this.lbl_name.Text = "fdsfas";
-            this.lbl_name.Visible = false;
+            this.lbl_name.Size = new System.Drawing.Size(38, 16);
+            this.lbl_name.TabIndex = 0;
+            this.lbl_name.Text = "label1";
             // 
             // SingerItem
             // 

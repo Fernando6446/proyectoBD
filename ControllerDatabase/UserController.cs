@@ -18,7 +18,7 @@ namespace ControllerDatabase
         public bool userExist(String user, String pass)
         {
             this.connection.Open();
-            String sql = "select * from dbo.Usuario where usuario='" + user + "' and pass='" + pass + "'";
+            String sql = "select * from dbo.Usuario where nombre='" + user + "' and pass='" + pass + "'";
             SqlCommand sqlCommand = new SqlCommand(sql, this.connection);
             SqlDataReader reader = sqlCommand.ExecuteReader();
             if (reader.Read())
@@ -36,7 +36,7 @@ namespace ControllerDatabase
             if (this.connection != null)
             {
 
-                String sql = "insert into dbo.Usuario(usuario, correo, tel, pass)values('" + user + "', '"+email+"', '"+phone+"', '"+pass+"')";
+                String sql = "insert into dbo.Usuario(nombre, correo, tel, pass)values('" + user + "', '"+email+"', '"+phone+"', '"+pass+"')";
                 SqlCommand cmd = new SqlCommand(sql, this.connection);
                 cmd.ExecuteNonQuery();
                 this.connection.Close();

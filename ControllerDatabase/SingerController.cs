@@ -21,7 +21,7 @@ namespace ControllerDatabase
         {
             this.connection.Open();
             List<templates.Singer> items = new List<templates.Singer>();
-            string sql = "select * from dbo.Musico";
+            string sql = "select * from dbo.Autor";
             SqlCommand cursor = new SqlCommand(sql, this.connection);
             SqlDataReader reader = cursor.ExecuteReader();
             while (reader.Read())
@@ -32,10 +32,9 @@ namespace ControllerDatabase
                 string country = reader.GetString(3);
                 string ocupacion = reader.GetString(4);
                 DateTime date2 = reader.GetDateTime(5);
-                string genre = reader.GetString(6);
-                string inst = reader.GetString(7);
-                string awards = reader.GetString(8);
-                templates.Singer singer = new templates.Singer(id, name, date, date2, country, ocupacion, genre, inst, awards, "jds");
+                int genre = reader.GetInt32(6);
+                string awards = reader.GetString(7);
+                templates.Singer singer = new templates.Singer(id, name, date, date2, country, ocupacion, genre, awards);
                 items.Add(singer);
             }
             this.connection.Close();

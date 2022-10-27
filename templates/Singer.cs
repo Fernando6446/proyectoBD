@@ -14,12 +14,10 @@ namespace templates
         public DateTime start;
         public string country;
         public string ocup;
-        public string genre;
-        public string instruments;
+        public int genre;
         public string awards;
-        public string image;
 
-        public Singer(int id, string name, DateTime birth_date, DateTime start, string country, string ocup, string genre, string instruments, string awards, string image)
+        public Singer(int id, string name, DateTime birth_date, DateTime start, string country, string ocup, int genre,  string awards)
         {
             this.id = id;
             this.name = name;
@@ -28,9 +26,7 @@ namespace templates
             this.country = country;
             this.ocup = ocup;
             this.genre = genre;
-            this.instruments = instruments;
             this.awards = awards;
-            this.image = image;
         }
     }
 }

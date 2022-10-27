@@ -16,6 +16,7 @@ namespace ProyectoDB
         {
             InitializeComponent();
             this.lbl_name.Text = gente;
+            this.setImage();
         }
 
         private void GalleryGanresItem_MouseDown(object sender, MouseEventArgs e)
@@ -35,6 +36,17 @@ namespace ProyectoDB
             this.BorderStyle = BorderStyle.FixedSingle;
             this.BackColor = SystemColors.ControlDark;
 
+        }
+
+
+        public void setImage()
+        {
+            this.BackgroundImage = Image.FromFile("./imgs/Generos/" + lbl_name.Text + ".jpg");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+        }
+
+        private void GalleryGanresItem_MouseClick(object sender, MouseEventArgs e)
+        {
         }
     }
 }

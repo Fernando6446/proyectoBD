@@ -33,7 +33,7 @@
             this.lbl_name = new System.Windows.Forms.Label();
             this.label_genero = new System.Windows.Forms.Label();
             this.label123 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label_premios = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label_pais = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -89,15 +89,15 @@
             this.label123.TabIndex = 3;
             this.label123.Text = "Genero";
             // 
-            // label3
+            // label_premios
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(674, 200);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 22);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Artista";
+            this.label_premios.AutoSize = true;
+            this.label_premios.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_premios.Location = new System.Drawing.Point(674, 200);
+            this.label_premios.Name = "label_premios";
+            this.label_premios.Size = new System.Drawing.Size(60, 22);
+            this.label_premios.TabIndex = 8;
+            this.label_premios.Text = "Artista";
             // 
             // label4
             // 
@@ -142,7 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(950, 539);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label_premios);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label_pais);
             this.Controls.Add(this.label6);
@@ -166,7 +166,7 @@
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Label label_genero;
         private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_premios;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label_pais;
         private System.Windows.Forms.Label label6;

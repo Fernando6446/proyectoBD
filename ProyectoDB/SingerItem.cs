@@ -32,7 +32,18 @@ namespace ProyectoDB
             this.Visible = false;
             PaginaArtista pa = new PaginaArtista(this.singer);
             pa.ShowDialog();
-            this.Visible =true;
+            this.Visible = true;
+        }
+
+        private void SingerItem_MouseEnter(object sender, EventArgs e)
+        {
+            this.BorderStyle = BorderStyle.FixedSingle;
+
+        }
+
+        private void SingerItem_MouseLeave(object sender, EventArgs e)
+        {
+            this.BorderStyle = BorderStyle.None;
         }
     }
 }

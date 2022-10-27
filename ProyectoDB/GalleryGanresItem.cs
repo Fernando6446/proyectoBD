@@ -22,21 +22,18 @@ namespace ProyectoDB
         private void GalleryGanresItem_MouseLeave(object sender, EventArgs e)
         {
             this.BorderStyle = BorderStyle.None;
-            this.BackColor = SystemColors.ControlDarkDark;
         }
 
         private void GalleryGanresItem_MouseEnter(object sender, EventArgs e)
         {
             this.BorderStyle = BorderStyle.FixedSingle;
-            this.BackColor = SystemColors.ControlDark;
-
         }
 
 
         public void setImage()
         {
             this.BackgroundImage = Image.FromFile("./imgs/Generos/" + lbl_name.Text + ".jpg");
-                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
         }
 
         private void GalleryGanresItem_MouseClick(object sender, MouseEventArgs e)

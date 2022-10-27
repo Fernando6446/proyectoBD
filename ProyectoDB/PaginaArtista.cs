@@ -26,6 +26,7 @@ namespace ProyectoDB
             lbl_name.Text = this.singer.name;
             label_genero.Text = this.singer.genre;
             label_pais.Text = this.singer.country;
+            pic_imagen.Image = Image.FromFile("./imgs/Cantantes/" + this.singer.name + ".jpg");
         }
     }
 }

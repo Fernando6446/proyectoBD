@@ -48,9 +48,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Controls.Add(this.lbl_name);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "SingerItem";
             this.Size = new System.Drawing.Size(216, 219);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SingerItem_MouseClick);
+            this.MouseEnter += new System.EventHandler(this.SingerItem_MouseEnter);
+            this.MouseLeave += new System.EventHandler(this.SingerItem_MouseLeave);
             this.ResumeLayout(false);
             this.PerformLayout();
 

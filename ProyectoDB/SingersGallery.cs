@@ -23,7 +23,7 @@ namespace ProyectoDB
             List<templates.Singer> singers = singerController.getSingers();
             foreach (templates.Singer singer in singers)
             {
-                container.Controls.Add(new SingerItem(singer.name));
+                container.Controls.Add(new SingerItem(singer));
             }
         }
     }

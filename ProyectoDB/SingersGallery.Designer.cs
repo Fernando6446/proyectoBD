@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.container = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
+            // 
+            // container
+            // 
+            this.container.AutoScroll = true;
+            this.container.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.container.Location = new System.Drawing.Point(36, 44);
+            this.container.Name = "container";
+            this.container.Size = new System.Drawing.Size(933, 403);
+            this.container.TabIndex = 2;
             // 
             // SingersGallery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 491);
+            this.Controls.Add(this.container);
             this.Name = "SingersGallery";
             this.Text = "SingersGallery";
             this.ResumeLayout(false);
@@ -42,5 +53,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel container;
     }
 }

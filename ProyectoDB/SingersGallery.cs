@@ -16,5 +16,14 @@ namespace ProyectoDB
         {
             InitializeComponent();
         }
+        public void fillData()
+        {
+            ControllerDatabase.GenreController genreController = new ControllerDatabase.GenreController();
+            List<templates.Genre> genres = genreController.getGenres();
+            foreach (templates.Genre genre in genres)
+            {
+                container.Controls.Add(new GalleryGanresItem(genre.name));
+            }
+        }
     }
 }
